@@ -12,26 +12,43 @@
 
     <script>
 
-        let n = 10;
-        // faça
-        do {
-            console.log("e agora josé");
+        // let n = 10;
+        // // faça
+        // do {
+        //     console.log("e agora josé");
+        // } 
+        // // enquanto
+        // while(n!=10);
+
+
+
+        // let x = 10;
+
+        // // enquanto
+        // while(x!=10){
+        //     console.log("só?");
+        // }
+
+        // length mostra quantos numeros tem na lista
+
+        // let = a = [10, 20, 10, 15, 140]
+
+        // document.write(a.length)
+ 
+        let a = [10, 20, 10, 15, 140,7];
+        let inicio = 0;
+        let fim =  a.length - 1;
+
+        console.log(a);
+
+        while(inicio < fim){
+            temp = a[inicio];
+            a[inicio] = a[fim];
+            a[fim] = temp;
+            inicio++;
+            fim--;
         } 
-        // enquanto
-        while(n!=10);
-
-
-
-        let x = 10;
-
-        // enquanto
-        while(x!=10){
-            console.log("só?");
-        }
-
-        let = a = [10, 20, 10, 15, 140]
-
-        document.write(a[2])
+        console.log(a);
 
     </script>
 </head>
